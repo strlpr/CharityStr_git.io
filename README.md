@@ -20,7 +20,7 @@ and open .env file and check database setting<br>
 -->after this you have to genrate the application key by cmd <br>
 "php artisan key:generate"<br>
 // it will generate application key set successfully<br>
-
+-->now you have take the DUMP data sql file from this which is Dump20191119 (1).sql and <br> import it inside your mysql databse.
 <br>
 -->now migrate the database with project cmd "php artisan migrate"
 
