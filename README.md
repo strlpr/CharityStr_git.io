@@ -20,6 +20,9 @@ and open .env file and check database setting<br>
 -->after this you have to genrate the application key by cmd <br>
 "php artisan key:generate"<br>
 // it will generate application key set successfully<br>
+
 <br>
+-->now migrate the database with project cmd "php artisan migrate"
+
 -->now to run development server write cmd "php artisan serve"<br>
 it will generate localhost -> http://127.0.0.1:8000/ on this you can view<br>
