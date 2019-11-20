@@ -38,7 +38,7 @@ class AboutEditWhoWeAreController extends Controller
         
         $who_we_are->save();
 
-        return redirect('/aboutusEdit');
+        return redirect('/aboutusEdit')->with('status', 'Details Uploaded successfuly');
         
     }
     

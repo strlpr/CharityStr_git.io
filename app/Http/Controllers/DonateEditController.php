@@ -30,7 +30,7 @@ class DonateEditController extends Controller
                 $donate_page_data->image = '';
             }
             $donate_page_data->save();
-            return redirect('/donateEdit');
+            return redirect('/donateEdit')->with('status', 'Details Uploaded successfuly');
 
     }
 }

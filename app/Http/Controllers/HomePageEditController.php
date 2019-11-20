@@ -34,7 +34,7 @@ class HomePageEditController extends Controller
            
         }
         $home_slide->save();
-        return redirect('/homepageEdit');
+        return redirect('/homepageEdit')->with('status', 'Details Uploaded successfuly');
         
     }
 
@@ -57,7 +57,7 @@ class HomePageEditController extends Controller
            
         }
         $home_about_ngo_data->save();
-        return redirect('/homepageEdit');
+        return redirect('/homepageEdit')->with('status', 'Details Uploaded successfuly');
         
     }
 
@@ -80,7 +80,7 @@ class HomePageEditController extends Controller
            
         }
         $home_education_slide->save();
-        return redirect('/homepageEdit');
+        return redirect('/homepageEdit')->with('status', 'Details Uploaded successfuly');
     }
 
     
@@ -102,7 +102,7 @@ class HomePageEditController extends Controller
            
         }
         $home_health_slide->save();
-        return redirect('/homepageEdit');
+        return redirect('/homepageEdit')->with('status', 'Details Uploaded successfuly');
     }
 
     
@@ -124,7 +124,7 @@ class HomePageEditController extends Controller
            
         }
         $home_creting_impact->save();
-        return redirect('/homepageEdit');
+        return redirect('/homepageEdit')->with('status', 'Details Uploaded successfuly');
 
     }
 

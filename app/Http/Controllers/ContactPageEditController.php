@@ -19,7 +19,7 @@ class ContactPageEditController extends Controller
         $ngo_contact_details->email = $request->input('email');
 
         $ngo_contact_details->save();
-        return \redirect('/contactPageEdit');
+        return \redirect('/contactPageEdit')->with('status', 'Details Uploaded successfuly');
 
     }
 }
