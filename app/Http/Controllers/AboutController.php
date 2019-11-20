@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 
-use App\AboutEditWhoWeAre;
 use Illuminate\Http\Request;
 use App\models\add_team_data;
+use App\models\AboutEditWhoWeAre;
 use App\models\about_team_slide_data;
 
 

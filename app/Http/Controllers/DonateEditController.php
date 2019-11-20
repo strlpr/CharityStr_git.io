@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\DonatePageData;
 use Illuminate\Http\Request;
+use App\models\DonatePageData;
 
 class DonateEditController extends Controller
 {

@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 
-use App\AboutEditWhoWeAre;
 use Illuminate\Http\Request;
+use App\models\AboutEditWhoWeAre;
 
 class AboutEditWhoWeAreController extends Controller
 {

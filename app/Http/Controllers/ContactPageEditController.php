@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\NgoContactDetails;
 use Illuminate\Http\Request;
+use App\models\NgoContactDetails;
 
 class ContactPageEditController extends Controller
 {

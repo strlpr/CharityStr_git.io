@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\homeSlide;
-use App\homeHealthSlide;
-use App\homeAboutNgoData;
-use App\homeCretingImpact;
-use App\homeEducationSide;
+use App\models\homeHealthSlide;
+use App\models\homeAboutNgoData;
+use App\models\homeSlide;
+use App\models\homeCretingImpact;
+use App\models\homeEducationSide;
 use Illuminate\Http\Request;
 
 class HomePageEditController extends Controller
