@@ -25,4 +25,4 @@ and open .env file and check database setting<br>
 -->now migrate the database with project cmd "php artisan migrate"
 
 -->now to run development server write cmd "php artisan serve"<br>
-it will generate localhost -> http://127.0.0.1:8000/ on this you can view<br>
+it will generate localhost -> http://127.0.0.1:8000/ on this you can view<br><br>
